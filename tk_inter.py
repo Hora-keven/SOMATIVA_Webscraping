@@ -181,7 +181,7 @@ class Tela:
 
             data = pd.DataFrame(data=self.cabecalho)
 
-            data.to_csv(f'C:/Users/53688621808/Documents/planilhas/{self.clicked.get()}.xlsx', index=False)
+            data.to_excel(f'C:/Users/53688621808/Documents/planilhas/{self.clicked.get()}.xlsx', index=False)
 
 
 
