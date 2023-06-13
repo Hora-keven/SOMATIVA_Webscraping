@@ -23,7 +23,6 @@ class Bot:
         :return: None
         """
 
-
         self.lista_modelo = []
         self.lista_marca = []
         self.lista_valor = []

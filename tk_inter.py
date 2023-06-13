@@ -62,7 +62,7 @@ class Tela:
         self.botao_csv = Button(self.frame_2, text="Csv", bg='#8ae287', command=self.opcao_csv)
         self.botao_csv.place(relx=0.55, rely=0.41, relwidth=0.12, relheight=0.15)
 
-        self.botao_excel = Button(self.frame_2, text="Excel", bg='#8ae287', command=self.opcao_csv)
+        self.botao_excel = Button(self.frame_2, text="Excel", bg='#8ae287', command=self.excel)
         self.botao_excel.place(relx=0.68, rely=0.41, relwidth=0.12, relheight=0.15)
 
 
